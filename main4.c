@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
 	
 	y=a*x*x+b*x+c;
 	m=(x+y+z)/3;
-	printf("y=%d,m=%d\n",y,m); // 4주차 실습 1
+	printf("y=%d,m=%d\n",y,m); // 4주차 실습1
 	
 	int d=3;
 	int cond1, cond2;
@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
 	cond1=2<d&&d<5;
 	cond2=d>1||d<4&&d>3;
 	
-	printf("cond1=%d, cond2=%d\n", cond1, cond2);//4주차 실습 2
+	printf("cond1=%d, cond2=%d\n", cond1, cond2);//4주차 실습2
 	
 	int integer1, integer2;
 	
@@ -44,6 +44,6 @@ int main(int argc, char *argv[]) {
 	printf("/ result is : %d\n",h);
 	
 	i=integer1%integer2;
-	printf("%% result is : %d\n",i);//4주차 실습 3 
+	printf("%% result is : %d\n",i);//4주차 실습3 
 	return 0;
 }
